@@ -1,7 +1,7 @@
 # Docs
 [http://getinstance.info/articles/react/learning-react-redux/](http://getinstance.info/articles/react/learning-react-redux/)
 
-[http://redux.js.org/docs/basics/Actions.html](http://redux.js.org/docs/basics/Actions.html)
+[https://rajdee.gitbooks.io/redux-in-russian/content/](https://rajdee.gitbooks.io/redux-in-russian/content/)
 
 [https://www.tutorialspoint.com/reactjs/reactjs_using_flux.htm](https://www.tutorialspoint.com/reactjs/reactjs_using_flux.htm)
 
