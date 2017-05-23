@@ -18,7 +18,7 @@ ssh-add -L - view ssh key
 
 ### git
 git remote rm origin
-git remote add origin git@github.com:Filiatix/crm.git
+git remote add origin git@github.com:org/rep.git
 
 git config --global color.branch auto
 git config --global color.diff auto
