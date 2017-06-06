@@ -11,6 +11,16 @@
 
 [https://maxfarseer.gitbooks.io/redux-course-ru/content/combinereducers.html](https://maxfarseer.gitbooks.io/redux-course-ru/content/combinereducers.html)
 
+[https://jquense.github.io/react-widgets/docs/#/getting-started?_k=4yyzja](https://jquense.github.io/react-widgets/docs/#/getting-started?_k=4yyzja)
+
+[https://github.com/reactjs/react-modal](https://github.com/reactjs/react-modal)
+
+[https://github.com/recharts/recharts](https://github.com/recharts/recharts)
+
+[https://flow.org/](https://flow.org/)
+
+[https://facebook.github.io/immutable-js/](https://facebook.github.io/immutable-js/)
+
 # Commands
 
 ### ssh
