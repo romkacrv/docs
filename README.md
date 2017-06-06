@@ -27,7 +27,7 @@
 ssh-add -L - view ssh key
 
 ### git
-# git remote rm origin
+####### git remote rm origin
 # git remote add origin git@github.com:org/rep.git
 
 # git config --global color.branch auto
