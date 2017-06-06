@@ -27,13 +27,13 @@
 ssh-add -L - view ssh key
 
 ### git
-git remote rm origin \n
-git remote add origin git@github.com:org/rep.git \n
+git remote rm origin
+git remote add origin git@github.com:org/rep.git
 
-git config --global color.branch auto /n
-git config --global color.diff auto /n
-git config --global color.interactive auto /n
-git config --global color.status auto /n
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
  
 git config --global alias.nmerge "merge --no-ff"
 git config --global alias.co "checkout"
