@@ -27,23 +27,23 @@
 ssh-add -L - view ssh key
 
 ### git
-####### git remote rm origin
-# git remote add origin git@github.com:org/rep.git
+git remote rm origin /n
+git remote add origin git@github.com:org/rep.git /n
 
-# git config --global color.branch auto
-# git config --global color.diff auto
-# git config --global color.interactive auto
-# git config --global color.status auto
+git config --global color.branch auto /n
+git config --global color.diff auto /n
+git config --global color.interactive auto /n
+git config --global color.status auto /n
  
-# git config --global alias.nmerge "merge --no-ff"
-# git config --global alias.co "checkout"
-# git config --global alias.br "branch"
-# git config --global alias.ci "commit"
-# git config --global alias.st "status"
-# git config --global alias.unstage "reset --hard HEAD^"
-# git config --global alias.last "log -1 HEAD"
-# git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+git config --global alias.nmerge "merge --no-ff"
+git config --global alias.co "checkout"
+git config --global alias.br "branch"
+git config --global alias.ci "commit"
+git config --global alias.st "status"
+git config --global alias.unstage "reset --hard HEAD^"
+git config --global alias.last "log -1 HEAD"
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
  
-# git config --global user.name "romkacrv"
-# git config --global user.email “silveriddqd@gmail.com”
+git config --global user.name "romkacrv"
+git config --global user.email “silveriddqd@gmail.com”
 
