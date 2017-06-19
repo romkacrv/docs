@@ -44,6 +44,28 @@ git config --global alias.unstage "reset --hard HEAD^"
 git config --global alias.last "log -1 HEAD"
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
  
-git config --global user.name "romkacrv"
-git config --global user.email “silveriddqd@gmail.com”
+git config --global user.name "username"
+git config --global user.email “email”
+
+prepareMultipleSort(prop: string, sort: string) {
+        return (obj1: Array<Object>, obj2: Array<Object>): number => {
+            return obj1[prop] > obj2[prop] ? (sort === "ASC" ? 1 : -1) :
+                obj1[prop] < obj2[prop] ? (sort === "ASC" ? -1 : 1) : 0;
+        };
+    }
+
+    doMultipleSort(cols: Array<string>, sort: string) {
+        return (obj1: Array<Object>, obj2: Array<Object>) => {
+            let result = 0;
+
+            for (let col of cols) {
+                result = (result === 0) && this.prepareMultipleSort(col, sort)(obj1, obj2);
+            }
+
+            return result;
+        };
+    }
+
+        //sort by state then deal_id before output
+        data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));
 
