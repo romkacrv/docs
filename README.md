@@ -47,6 +47,10 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global user.name "username"
 git config --global user.email “email”
 
+
+
+
+
 prepareMultipleSort(prop: string, sort: string) {
         return (obj1: Array<Object>, obj2: Array<Object>): number => {
             return obj1[prop] > obj2[prop] ? (sort === "ASC" ? 1 : -1) :
