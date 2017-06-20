@@ -74,6 +74,5 @@ doMultipleSort(cols: Array<string>, sort: string) {
     };
 }
 
-//sort by state then deal_id before output
-data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));
+data.sort(this.doMultipleSort(["col1", "col2"], "DESC"));
 ```
