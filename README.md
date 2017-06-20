@@ -31,7 +31,7 @@
 `ssh-add -L - view ssh key`
 
 ### git
-`git remote rm origin
+```git remote rm origin
 git remote add origin git@github.com:org/rep.git
 
 git config --global color.branch auto
@@ -49,13 +49,10 @@ git config --global alias.last "log -1 HEAD"
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
  
 git config --global user.name "username"
-git config --global user.email “email”`
+git config --global user.email “email”```
 
 
-
-
-
-prepareMultipleSort(prop: string, sort: string) {
+```prepareMultipleSort(prop: string, sort: string) {
         return (obj1: Array<Object>, obj2: Array<Object>): number => {
             return obj1[prop] > obj2[prop] ? (sort === "ASC" ? 1 : -1) :
                 obj1[prop] < obj2[prop] ? (sort === "ASC" ? -1 : 1) : 0;
@@ -75,5 +72,5 @@ prepareMultipleSort(prop: string, sort: string) {
     }
 
         //sort by state then deal_id before output
-        data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));
+        data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));```
 
