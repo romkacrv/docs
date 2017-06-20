@@ -51,6 +51,7 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global user.name "username"
 git config --global user.email “email”```
 
+### code
 
 ```prepareMultipleSort(prop: string, sort: string) {
         return (obj1: Array<Object>, obj2: Array<Object>): number => {
