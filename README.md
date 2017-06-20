@@ -31,7 +31,8 @@
 `ssh-add -L - view ssh key`
 
 ### git
-```git remote rm origin
+```
+git remote rm origin
 git remote add origin git@github.com:org/rep.git
 
 git config --global color.branch auto
@@ -53,25 +54,26 @@ git config --global user.email “email”
 ```
 ### code
 
-```prepareMultipleSort(prop: string, sort: string) {
-        return (obj1: Array<Object>, obj2: Array<Object>): number => {
-            return obj1[prop] > obj2[prop] ? (sort === "ASC" ? 1 : -1) :
-                obj1[prop] < obj2[prop] ? (sort === "ASC" ? -1 : 1) : 0;
-        };
-    }
+```
+prepareMultipleSort(prop: string, sort: string) {
+    return (obj1: Array<Object>, obj2: Array<Object>): number => {
+        return obj1[prop] > obj2[prop] ? (sort === "ASC" ? 1 : -1) :
+            obj1[prop] < obj2[prop] ? (sort === "ASC" ? -1 : 1) : 0;
+    };
+}
 
-    doMultipleSort(cols: Array<string>, sort: string) {
-        return (obj1: Array<Object>, obj2: Array<Object>) => {
-            let result = 0;
+doMultipleSort(cols: Array<string>, sort: string) {
+    return (obj1: Array<Object>, obj2: Array<Object>) => {
+        let result = 0;
 
-            for (let col of cols) {
-                result = (result === 0) && this.prepareMultipleSort(col, sort)(obj1, obj2);
-            }
+        for (let col of cols) {
+            result = (result === 0) && this.prepareMultipleSort(col, sort)(obj1, obj2);
+        }
 
-            return result;
-        };
-    }
+        return result;
+    };
+}
 
-        //sort by state then deal_id before output
-        data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));
+//sort by state then deal_id before output
+data.sort(this.doMultipleSort(["state", "deal_id"], "DESC"));
 ```
