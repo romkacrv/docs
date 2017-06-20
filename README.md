@@ -21,13 +21,17 @@
 
 [https://facebook.github.io/immutable-js/](https://facebook.github.io/immutable-js/)
 
+[http://eslint.org/docs/rules/quotes](http://eslint.org/docs/rules/quotes)
+
+[http://jscs.info/rules?q=](http://jscs.info/rules?q=)
+
 # Commands
 
 ### ssh
-ssh-add -L - view ssh key
+`ssh-add -L - view ssh key`
 
 ### git
-git remote rm origin
+`git remote rm origin
 git remote add origin git@github.com:org/rep.git
 
 git config --global color.branch auto
@@ -45,7 +49,7 @@ git config --global alias.last "log -1 HEAD"
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
  
 git config --global user.name "username"
-git config --global user.email “email”
+git config --global user.email “email”`
 
 
 
