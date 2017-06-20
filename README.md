@@ -25,6 +25,8 @@
 
 [http://jscs.info/rules?q=](http://jscs.info/rules?q=)
 
+[http://janetriley.net/2014/12/sort-on-multiple-keys-with-underscores-sortby.html](http://janetriley.net/2014/12/sort-on-multiple-keys-with-underscores-sortby.html)
+
 # Commands
 
 ### ssh
