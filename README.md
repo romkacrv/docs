@@ -27,6 +27,8 @@
 
 [http://janetriley.net/2014/12/sort-on-multiple-keys-with-underscores-sortby.html](http://janetriley.net/2014/12/sort-on-multiple-keys-with-underscores-sortby.html)
 
+[https://habrahabr.ru/post/312880/](https://habrahabr.ru/post/312880/)
+
 # Commands
 
 ### ssh
