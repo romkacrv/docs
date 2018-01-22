@@ -38,6 +38,10 @@ https://proglib.io/p/frontend-interview/
 https://medium.com/@sapy/7-interview-questions-and-answers-frontend-engineer-8b19f10697a4
 https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Russian
 
+http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/
+
+typescript
+
 
 # Commands
 
