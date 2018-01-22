@@ -42,6 +42,8 @@ http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-c
 
 typescript
 
+https://docs.google.com/document/d/1IdwWNs4QNOccJgBRlZF9FArX9jcWAKL6DRAY9-eV_kE/edit
+
 
 # Commands
 
