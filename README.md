@@ -29,6 +29,16 @@
 
 [https://habrahabr.ru/post/312880/](https://habrahabr.ru/post/312880/)
 
+https://habrahabr.ru/post/231071/
+https://habrahabr.ru/post/239065/
+http://perfectionkills.com/javascript-quiz/
+https://habrahabr.ru/company/ruvds/blog/334538/
+https://proglib.io/p/frontend-interview/
+
+https://medium.com/@sapy/7-interview-questions-and-answers-frontend-engineer-8b19f10697a4
+https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Russian
+
+
 # Commands
 
 ### ssh
