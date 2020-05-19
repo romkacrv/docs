@@ -59,7 +59,8 @@ git config --global color.branch auto
 git config --global color.diff auto
 git config --global color.interactive auto
 git config --global color.status auto
- 
+
+git config --global alias.push "push --force-with-lease"
 git config --global alias.nmerge "merge --no-ff"
 git config --global alias.co "checkout"
 git config --global alias.br "branch"
